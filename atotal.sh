@@ -15,6 +15,6 @@ consumoTotal=0;
 var1=1;
 for i in ${miArray[@]}
 do
-  con=$((consumoTotal+i))
+  con=$((consumoTotal+i));
 done
 echo $con
